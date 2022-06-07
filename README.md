@@ -3,7 +3,7 @@
 ## DevOps framework
 
 - Ruby on Rails 7
-- Hotwire
+- Hotwired
 - Tailwind css
 - Sqlite
 - Draw.io
