@@ -65,6 +65,6 @@ class PcrsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def pcr_params
-      params.require(:pcr).permit(:inpatient_seq, :is_specail_ward, :positived_days, :patient_no, :patient_name, :patient_id, :ward_bed, :vs_doctor_id, :vs_doctor_name, :admitted_at, :examined_at, :reported_at, :order_code, :examined_result)
+      params.require(:pcr).permit(:inpatient_seq, :is_specail_ward, :positived_days, :patient_no, :patient_name, :patient_idno, :ward_bed, :vs_doctor_uid, :vs_doctor_name, :admitted_at, :examined_at, :reported_at, :order_code, :examined_result)
     end
 end

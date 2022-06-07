@@ -10,16 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_06_07_053315) do
+ActiveRecord::Schema[7.0].define(version: 2022_06_07_063235) do
   create_table "pcrs", force: :cascade do |t|
     t.string "inpatient_seq"
     t.boolean "is_specail_ward"
     t.integer "positived_days"
     t.string "patient_no"
     t.string "patient_name"
-    t.string "patient_id"
+    t.string "patient_idno"
     t.string "ward_bed"
-    t.string "vs_doctor_id"
+    t.string "vs_doctor_uid"
     t.string "vs_doctor_name"
     t.datetime "admitted_at"
     t.datetime "examined_at"

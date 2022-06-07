@@ -6,9 +6,9 @@ class CreatePcrs < ActiveRecord::Migration[7.0]
       t.integer :positived_days
       t.string :patient_no
       t.string :patient_name
-      t.string :patient_id
+      t.string :patient_idno
       t.string :ward_bed
-      t.string :vs_doctor_id
+      t.string :vs_doctor_uid
       t.string :vs_doctor_name
       t.datetime :admitted_at
       t.datetime :examined_at

@@ -20,13 +20,13 @@ class PcrsTest < ApplicationSystemTestCase
     fill_in "Inpatient seq", with: @pcr.inpatient_seq
     check "Is specail ward" if @pcr.is_specail_ward
     fill_in "Order code", with: @pcr.order_code
-    fill_in "Patient", with: @pcr.patient_id
+    fill_in "Patient idno", with: @pcr.patient_idno
     fill_in "Patient name", with: @pcr.patient_name
     fill_in "Patient no", with: @pcr.patient_no
     fill_in "Positived days", with: @pcr.positived_days
     fill_in "Reported at", with: @pcr.reported_at
-    fill_in "Vs doctor", with: @pcr.vs_doctor_id
     fill_in "Vs doctor name", with: @pcr.vs_doctor_name
+    fill_in "Vs doctor uid", with: @pcr.vs_doctor_uid
     fill_in "Ward bed", with: @pcr.ward_bed
     click_on "Create Pcr"
 
@@ -44,13 +44,13 @@ class PcrsTest < ApplicationSystemTestCase
     fill_in "Inpatient seq", with: @pcr.inpatient_seq
     check "Is specail ward" if @pcr.is_specail_ward
     fill_in "Order code", with: @pcr.order_code
-    fill_in "Patient", with: @pcr.patient_id
+    fill_in "Patient idno", with: @pcr.patient_idno
     fill_in "Patient name", with: @pcr.patient_name
     fill_in "Patient no", with: @pcr.patient_no
     fill_in "Positived days", with: @pcr.positived_days
     fill_in "Reported at", with: @pcr.reported_at
-    fill_in "Vs doctor", with: @pcr.vs_doctor_id
     fill_in "Vs doctor name", with: @pcr.vs_doctor_name
+    fill_in "Vs doctor uid", with: @pcr.vs_doctor_uid
     fill_in "Ward bed", with: @pcr.ward_bed
     click_on "Update Pcr"
 
