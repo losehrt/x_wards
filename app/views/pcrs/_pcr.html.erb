@@ -1,0 +1,77 @@
+<div id="<%= dom_id pcr %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Inpatient seq:</strong>
+    <%= pcr.inpatient_seq %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Is specail ward:</strong>
+    <%= pcr.is_specail_ward %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Positived days:</strong>
+    <%= pcr.positived_days %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Patient no:</strong>
+    <%= pcr.patient_no %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Patient name:</strong>
+    <%= pcr.patient_name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Patient:</strong>
+    <%= pcr.patient_id %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Ward bed:</strong>
+    <%= pcr.ward_bed %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Vs doctor:</strong>
+    <%= pcr.vs_doctor_id %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Vs doctor name:</strong>
+    <%= pcr.vs_doctor_name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Admitted at:</strong>
+    <%= pcr.admitted_at %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Examined at:</strong>
+    <%= pcr.examined_at %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Reported at:</strong>
+    <%= pcr.reported_at %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Order code:</strong>
+    <%= pcr.order_code %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Examined result:</strong>
+    <%= pcr.examined_result %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this pcr", pcr, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to 'Edit this pcr', edit_pcr_path(pcr), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>

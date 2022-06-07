@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  inpatient_seq: MyString
+  is_specail_ward: false
+  positived_days: 1
+  patient_no: MyString
+  patient_name: MyString
+  patient_id: MyString
+  ward_bed: MyString
+  vs_doctor_id: MyString
+  vs_doctor_name: MyString
+  admitted_at: 2022-06-07 13:33:16
+  examined_at: 2022-06-07 13:33:16
+  reported_at: 2022-06-07 13:33:16
+  order_code: MyString
+  examined_result: MyString
+
+two:
+  inpatient_seq: MyString
+  is_specail_ward: false
+  positived_days: 1
+  patient_no: MyString
+  patient_name: MyString
+  patient_id: MyString
+  ward_bed: MyString
+  vs_doctor_id: MyString
+  vs_doctor_name: MyString
+  admitted_at: 2022-06-07 13:33:16
+  examined_at: 2022-06-07 13:33:16
+  reported_at: 2022-06-07 13:33:16
+  order_code: MyString
+  examined_result: MyString
