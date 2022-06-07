@@ -1,24 +1,15 @@
-# README
+# X Ward 說明文件
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## DevOps framework
 
-Things you may want to cover:
+- Ruby on Rails 7
+- Hotwire
+- Tailwind css
+- Sqlite
+- Draw.io
+- Docker
+- Docker-compose
 
-* Ruby version
+## Features
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### [PCR 陽性住院病患動態看板](./docs/pcr.md)
