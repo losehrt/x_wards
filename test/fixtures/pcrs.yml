@@ -10,9 +10,9 @@ one:
   ward_bed: MyString
   vs_doctor_uid: MyString
   vs_doctor_name: MyString
-  admitted_at: 2022-06-08 08:00:34
-  examined_at: 2022-06-08 08:00:34
-  reported_at: 2022-06-08 08:00:34
+  admitted_at: 2022-06-07 07:59
+  examined_at: 2022-06-08 08:00
+  reported_at: 2022-06-08 09:00
   order_code: MyString
   examined_result: MyString
 
@@ -26,8 +26,8 @@ two:
   ward_bed: MyString
   vs_doctor_uid: MyString
   vs_doctor_name: MyString
-  admitted_at: 2022-06-08 08:00:34
-  examined_at: 2022-06-08 08:00:34
-  reported_at: 2022-06-08 08:00:34
+  admitted_at: 2022-06-07 07:59
+  examined_at: 2022-06-08 08:00
+  reported_at: 2022-06-08 09:00
   order_code: MyString
   examined_result: MyString
