@@ -18,7 +18,7 @@ class PcrsTest < ApplicationSystemTestCase
     fill_in "Examined at", with: @pcr.examined_at
     fill_in "Examined result", with: @pcr.examined_result
     fill_in "Inpatient seq", with: @pcr.inpatient_seq
-    check "Is specail ward" if @pcr.is_specail_ward
+    check "Is special ward" if @pcr.is_special_ward
     fill_in "Order code", with: @pcr.order_code
     fill_in "Patient idno", with: @pcr.patient_idno
     fill_in "Patient name", with: @pcr.patient_name
@@ -42,7 +42,7 @@ class PcrsTest < ApplicationSystemTestCase
     fill_in "Examined at", with: @pcr.examined_at
     fill_in "Examined result", with: @pcr.examined_result
     fill_in "Inpatient seq", with: @pcr.inpatient_seq
-    check "Is specail ward" if @pcr.is_specail_ward
+    check "Is special ward" if @pcr.is_special_ward
     fill_in "Order code", with: @pcr.order_code
     fill_in "Patient idno", with: @pcr.patient_idno
     fill_in "Patient name", with: @pcr.patient_name

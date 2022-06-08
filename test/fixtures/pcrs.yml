@@ -2,7 +2,7 @@
 
 one:
   inpatient_seq: MyString
-  is_specail_ward: false
+  is_special_ward: false
   positived_days: 1
   patient_no: MyString
   patient_name: MyString
@@ -10,15 +10,15 @@ one:
   ward_bed: MyString
   vs_doctor_uid: MyString
   vs_doctor_name: MyString
-  admitted_at: 2022-06-07 14:32:35
-  examined_at: 2022-06-07 14:32:35
-  reported_at: 2022-06-07 14:32:35
+  admitted_at: 2022-06-08 08:00:34
+  examined_at: 2022-06-08 08:00:34
+  reported_at: 2022-06-08 08:00:34
   order_code: MyString
   examined_result: MyString
 
 two:
   inpatient_seq: MyString
-  is_specail_ward: false
+  is_special_ward: false
   positived_days: 1
   patient_no: MyString
   patient_name: MyString
@@ -26,8 +26,8 @@ two:
   ward_bed: MyString
   vs_doctor_uid: MyString
   vs_doctor_name: MyString
-  admitted_at: 2022-06-07 14:32:35
-  examined_at: 2022-06-07 14:32:35
-  reported_at: 2022-06-07 14:32:35
+  admitted_at: 2022-06-08 08:00:34
+  examined_at: 2022-06-08 08:00:34
+  reported_at: 2022-06-08 08:00:34
   order_code: MyString
   examined_result: MyString

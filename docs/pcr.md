@@ -12,7 +12,7 @@
   {
     "id": 1,
     "inpatient_seq": "1110001234",
-    "is_specail_ward": true,
+    "is_special_ward": true,
     "positived_days": 4,
     "patient_no": "0123456789",
     "patient_name": "王小明",
