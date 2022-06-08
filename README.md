@@ -1,3 +1,5 @@
+[![Publish Docker image](https://github.com/losehrt/x_wards/actions/workflows/my_docker_test.yml/badge.svg)](https://github.com/losehrt/x_wards/actions/workflows/my_docker_test.yml)
+
 # X Ward 說明文件
 
 ## DevOps framework
