@@ -2,7 +2,7 @@ FROM rubylang/ruby:3.1.0-focal
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
-    libpq-dev && libsqlite3-dev \
+    libpq-dev && sqlite-devel \
     postgresql-client \
     git chromium-bsu \
     libffi-dev \
