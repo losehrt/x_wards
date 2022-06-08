@@ -1,4 +1,4 @@
-[![Publish Docker image](https://github.com/losehrt/x_wards/actions/workflows/my_docker_test.yml/badge.svg)](https://github.com/losehrt/x_wards/actions/workflows/my_docker_test.yml)
+[![Publish x_words Docker image](https://github.com/losehrt/x_wards/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/losehrt/x_wards/actions/workflows/docker-publish.yml)
 
 # X Ward 說明文件
 
