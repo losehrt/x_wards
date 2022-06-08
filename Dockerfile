@@ -19,8 +19,7 @@ ADD . /app
 WORKDIR /app
 COPY Gemfile /app/Gemfile
 COPY Gemfile.lock /app/Gemfile.lock
-RUN gem install bundler:2.3.3
-RUN bundle install
+RUN gem update --system && gem install bundler
 
 # Configure the main process to run when running the image
 RUN RAILS_ENV=production bundle exec rails assets:precompile
