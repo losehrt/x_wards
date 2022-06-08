@@ -1,5 +1,5 @@
 class PcrsController < ApplicationController
-  TOKEN = "secret"
+  TOKEN = "5i1z0qcOQnzKU4bhoSj9f0qoNWzIOCCHKvQSp34D"
   skip_before_action :verify_authenticity_token, only: [:api]
   before_action :authenticate, only: [:api]
 

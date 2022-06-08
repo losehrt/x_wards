@@ -14,4 +14,4 @@
 
 ## Features
 
-### [PCR 陽性住院病患動態看板](./docs/pcr.md)
+- [PCR 陽性住院病患動態看板](./docs/pcr.md)
