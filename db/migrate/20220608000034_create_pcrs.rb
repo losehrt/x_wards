@@ -2,7 +2,7 @@ class CreatePcrs < ActiveRecord::Migration[7.0]
   def change
     create_table :pcrs do |t|
       t.string :inpatient_seq
-      t.boolean :is_specail_ward
+      t.boolean :is_special_ward
       t.integer :positived_days
       t.string :patient_no
       t.string :patient_name

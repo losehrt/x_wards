@@ -1,7 +1,7 @@
 class PcrsController < ApplicationController
   TOKEN = "secret"
-  skip_before_action :verify_authenticity_token, only: [:positives]
-  before_action :authenticate, only: [:positives]
+  skip_before_action :verify_authenticity_token, only: [:api]
+  before_action :authenticate, only: [:api]
 
   before_action :set_pcr, only: %i[ show edit update destroy ]
 
@@ -62,8 +62,14 @@ class PcrsController < ApplicationController
   end
   
   # POST positive datasets from hospital imformation system
-  def positives
-     render json: { resultCode: 0 }, status: :ok
+  def api
+    # binding.pry
+    pcr = Pcr.create! JSON.parse params[:inpatients]
+    if pcr
+      render json: { resultCode: 0 }, status: :ok
+    else
+      render json: pcr.errors, status: :unprocessable_entity
+    end
   end
 
   private
@@ -74,7 +80,7 @@ class PcrsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def pcr_params
-      params.require(:pcr).permit(:inpatient_seq, :is_specail_ward, :positived_days, :patient_no, :patient_name, :patient_idno, :ward_bed, :vs_doctor_uid, :vs_doctor_name, :admitted_at, :examined_at, :reported_at, :order_code, :examined_result)
+      params.require(:pcr).permit(:inpatient_seq, :is_special_ward, :positived_days, :patient_no, :patient_name, :patient_idno, :ward_bed, :vs_doctor_uid, :vs_doctor_name, :admitted_at, :examined_at, :reported_at, :order_code, :examined_result)
     end
 
     def authenticate
