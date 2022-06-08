@@ -19,8 +19,8 @@ ADD . /app
 WORKDIR /app
 COPY Gemfile /app/Gemfile
 COPY Gemfile.lock /app/Gemfile.lock
+RUN rm -f tmp/pids/server.pid
 RUN gem update --system && gem install bundler
 
-# Configure the main process to run when running the image
-RUN RAILS_ENV=production bundle exec rails assets:precompile
-CMD rails db:prepare && rails db:migrate && rails s -p 3000 -b '0.0.0.0'
+# build and start
+CMD ["bin/prod"]
